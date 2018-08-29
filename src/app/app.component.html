@@ -1,0 +1,14 @@
+<h2>Signature Pad</h2>
+<canvas style="border: 1px solid #000;" #sigPad width=300 height=200
+        (mousedown)="onMouseDown($event)"
+        (touchstart)="onTouchStart($event)"
+        (mousemove)="onMouseMove($event)"
+        (touchmove)="onTouchMove($event)"
+        (mouseup)="onMouseUp($event)"
+        (mouseleave)="onMouseLeave($event)"
+></canvas>
+<br/>
+<button (click)="onCanvasClear($event)">Clear</button>
+<button (click)="onSave($event)">Save</button>
+
+<p>Developed with ♥ by Arianit</p>
